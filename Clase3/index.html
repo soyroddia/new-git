@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+      <style type="text/css">
+          section{
+            width: 100%;
+          }
+          a{
+              text-decoration: none;
+              color: peru;
+              font-size: 25;
+          }
+          a:hover {
+              color:purple;
+          }
+          article{
+            padding: 20px;  
+            display:inline-block;
+          }
+        li{
+            padding: 20px;
+        }
+      </style>
+    <header>
+        <h1>NucbersCinema</h1>
+        <nav>
+            <a href="#"> Home</a>
+            <a href="#"> Nosotros</a>
+            <a href="#"> Precios</a>
+        </nav>
+        <section>
+            <h2>Busca tu pelicula</h3>
+            <article>
+                <h3>Por Año</h3>
+                <label> <input type="radio" name="peliyear" id="" /> 2018 </label>
+                <label> <input type="radio" name="peliyear" id="" /> 2019 </label>
+                <label> <input type="radio" name="peliyear" id="" /> 2020 </label>
+                <label> <input type="radio" name="peliyear" id="" /> 2021 </label>
+            </article>
+            <article>
+                <h3>Por Nombre</h3>
+                    <input type="text" placeholder="Busqueda..." id="" /></input>
+            </article>
+            <article>
+                <h3>Por Genero</h3>
+                    <select name="" id="miGenero">
+                        <option value="">.....</option>
+                        <option value="1">Accion</option>
+                        <option value="2">Drama</option>
+                        <option value="3">Comedia</option>
+                        <option value="4">Terror</option>
+                        <option value="5">Ciencia Ficcion</option>
+                    </select>
+                    <section>
+                        <h2>Agregadas Recientemente:</h2>
+                        <article>
+                            <h3>Infinity War</h3>
+                            <a href="">
+                                <img src="./img/Infinity War.jpeg">
+                            </a>
+                            <ul>
+                                <li>Año: 2018</li>
+                                <li>Genero: Accion</li>
+                                <li>IMBD: 10 estrellas</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Deadpool</h3>
+                            <a href="">
+                                <img src="./img/Deadpool.jpg">
+                            </a>
+                            <ul>
+                                <li>Año: 2019</li>
+                                <li>Genero: Accion</li>
+                                <li>IMBD: 8 estrellas</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>AntMan</h3>
+                            <a href="">
+                                <img src="./img/Ant Man.jpg">
+                            </a>
+                            <ul>
+                                <li>Año: 2018</li>
+                                <li>Genero: Accion</li>
+                                <li>IMBD: 7 estrellas</li>
+                            </ul>
+                        </article>
+                    </section>
+            </article>
+        </section>
+    </header>
+
+  </body>
+</html>
