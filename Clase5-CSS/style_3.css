@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #F3F0D7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: peru;
+    text-decoration-line: underline;
+}
+
+.btn {
+    background: #F7D59C;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #CEE5D0;
+}
+
+.btn.btn-todo-mal {
+    background: red;
+}

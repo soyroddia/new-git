@@ -4,9 +4,9 @@
 }
 
 
-h1 {
+/* h1 {
   color: green
-}
+} */
 
 /*.rojo {
     color: red
@@ -29,12 +29,13 @@ h1 {
     box-sizing: border-box;
 }
 
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-.box1 {
-    background: url(./img/images.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.box {
+    display:inline-block;
     width: 200px;
     height: 200px;
    /* border-color: black;
@@ -45,22 +46,14 @@ h1 {
     margin: 10px;
 }
 
-.box2 {
-    width: 200px;
-    height: 200px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    padding: 20px;
-    margin: 10px;
+h1 {
+    background-color: #112031;
+    color: white;
+    padding: 1rem;
 }
 
-.box3 {
-    width: 200px;
-    height: 200px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    padding: 30px;
-    margin: 10px;
+p {
+    background-color: #FF5C58;
+    color: #faf9f9;
+    padding: 1rem;
 }
